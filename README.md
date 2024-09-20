@@ -29,3 +29,10 @@ docker run -it -p 50051:50051 --name grpc_server grpc_server_course
 ```bash
 python -m course.client
 ```
+
+
+## Este projeto tem o objetivo de praticar conceitos do gRPC.
+- Ainda irei fazer a parte de autenticação utilizando o TLS.
+- Criar um banco de dados para persistir as informações.
+- Implementar uma funcionalidade para listar.
+- utilizar a parte de stream do gRPC.
